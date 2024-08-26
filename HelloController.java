@@ -9,6 +9,6 @@ public class HelloController {
     @GetMapping("/hello")
     @ResponseBody
     public String hello() {
-        return "Hello World";
+        return "이것은 hello를 입력했을 시 나오는 문구입니다.";
     }
 }
